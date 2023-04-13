@@ -2,14 +2,14 @@ package com.driver;
 
 public class Main {
     public static class Product{
-        public int product(int x,int y){
-            return x+y;
+        public void product(int x,int y){
+            System.out.println("HelloWorld");
         }
-        public int product(int x,int y,int z){
-            return x+y+z;
+        public void product(int x,int y,int z){
+            System.out.println("HelloWorld2");
         }
-        public double product(double x,double y){
-            return x+y;
+        public void product(double x,double y){
+            System.out.println("HelloWorld3");
         }
     }
    public static void main(String[] args){
